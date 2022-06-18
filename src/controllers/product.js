@@ -110,7 +110,7 @@ exports.addProduct = async (req, res) => {
 
     const cloudinary = require('../utils/cloudinary');
     const result = await cloudinary.uploader.upload(req.file.path, {
-      folder: 'apriadi',
+      folder: 'dumbmerch34',
       use_filename: true,
       unique_filename: false,
     });
